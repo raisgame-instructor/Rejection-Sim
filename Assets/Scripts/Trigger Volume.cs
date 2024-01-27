@@ -28,7 +28,7 @@ public class TriggerVolume : MonoBehaviour
         {
             ButtonCanvas.enabled = false;
             MyInteractCanvas.enabled = true;
-            
+            //disable input when interact canvas is up. need alternate way to exit out of the interact canvas
         }
     }
 
