@@ -13,7 +13,13 @@ public class PlayerMoverment : MonoBehaviour
     public Transform Location;
     public float checkradius;
     public LayerMask whatInteract;
+    public bool isInteracting;
 
+
+    private void Update()
+    {
+        Interacting();
+    }
 
     private void OnMove(InputValue IValue)
     {
@@ -21,13 +27,24 @@ public class PlayerMoverment : MonoBehaviour
         RB2D.velocity = Movement * Speed;
     }
 
-    
-    private void OnInteract()
+
+    void Interacting()
     {
-        CanInteract = true;
+        isInteracting = Physics2D.OverlapCircle(Location.position, checkradius, whatInteract);
     }
 
+    void OnInteract()
+    {
+        if (isInteracting == true)
+        {
+            CanInteract = true;
+        }
+    }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(Location.position, checkradius);
+    }
 
 
     /* player moves
