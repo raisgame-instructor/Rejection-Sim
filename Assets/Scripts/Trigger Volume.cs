@@ -8,8 +8,15 @@ public class TriggerVolume : MonoBehaviour
     public Canvas ButtonCanvas;
     public Canvas MyInteractCanvas;
     public PlayerMoverment PlayerMovermentScript;
+    public Romanceperson romanceperson;
     private bool Intrigger;
 
+    //On start set canvas to off
+    private void Start()
+    {
+        MyInteractCanvas.enabled = false;
+        ButtonCanvas.enabled = false;
+    }
 
     //on trigger enter, check if the players is the one that collided with us. if true turn on UI Canvas to tell player they have the option to interact with this person. if button is clicked close Button canvas & turn on interacting canvas
     private void OnTriggerEnter2D(Collider2D collision)
@@ -22,14 +29,15 @@ public class TriggerVolume : MonoBehaviour
         }
     }
 
+    //check if we can interact with this person and then open the interact canvas
     public void Update()
     {
-        if (PlayerMovermentScript.CanInteract && Intrigger)
+        if (PlayerMovermentScript.CanInteract && Intrigger && romanceperson.WillTalk)
         {
             ButtonCanvas.enabled = false;
             MyInteractCanvas.enabled = true;
             PlayerMovermentScript.CanMove = false;
-            //disable input when interact canvas is up. need alternate way to exit out of the interact canvas
+            //disable input when interact canvas is up.
         }
     }
 

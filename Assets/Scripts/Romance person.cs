@@ -14,33 +14,78 @@ public class Romanceperson : MonoBehaviour
     public TextMeshProUGUI TextOption1;
     public TextMeshProUGUI TextOption2;
     public TextMeshProUGUI TextOption3;
-    public string Fillin1;
-    public string Fillin2;
-    public string Fillin3;
+    public List<string> Fillin1;
+    public List<string> Fillin2;
+    public List<string> Fillin3;
 
-    //
+    //this is what the romance partner says
+    public TextMeshProUGUI Response;
+    public List<string> ResponseText1;
+    public bool WillTalk = true;
+    //audio
+    public AudioSource ASource;
+    public List<AudioClip> RPVoiceLines;
+
+    //set the text for this romance partner at the start of the game
     private void Start()
     {
-        TextUpdate1();   
+        TextUpdate();
     }
 
     //
-    void TextUpdate1()
+    void TextUpdate()
     {
-        TextOption1.text = Fillin1;
-        TextOption2.text = Fillin2;
-        TextOption3.text = Fillin3;
+        //take the first list text option and display it
+        TextOption1.text = Fillin1[0];
+        TextOption2.text = Fillin2[0];
+        TextOption3.text = Fillin3[0];
+        //delete that option from each list
+        Fillin1.RemoveAt(0);
+        Fillin2.RemoveAt(0);
+        Fillin3.RemoveAt(0);
     }
 
+    //Here we will update what the romance parter says and update the button text options
     public void LoadTextOption()
     {
-        Debug.Log("benis");
+        if(ResponseText1.Count > 0)
+        {
+            Response.text = ResponseText1[0];
+            ResponseText1.RemoveAt(0);
+            //play audioclip
+            ASource.PlayOneShot(RPVoiceLines[0]);
+            RPVoiceLines.RemoveAt(0);
+        }
+        if(ResponseText1.Count == 0)
+        {
+            Debug.Log("done");
+            Invoke("ConvoOver", 2);
+            WillTalk = false;
+        }
+
+        if (Fillin1.Count > 0)
+        {
+            TextOption1.text = Fillin1[0];
+            Fillin1.RemoveAt(0);
+        }
+
+        if (Fillin2.Count > 0)
+        {
+            TextOption2.text = Fillin2[0];
+            Fillin2.RemoveAt(0);
+        }
+
+        if (Fillin3.Count > 0)
+        {
+            TextOption3.text = Fillin3[0];
+            Fillin3.RemoveAt(0);
+        }
     }
 
-    //When you do this you get the auto response
+    //When you do this you get the auto response, similar to LoadTextOption
     public void DoneEnteringText()
     {
-        Debug.Log("asd");
+        LoadTextOption();
     }
 
     //when the conversation is over, close the UICanvas
