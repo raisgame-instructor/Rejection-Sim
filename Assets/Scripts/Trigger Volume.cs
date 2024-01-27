@@ -25,7 +25,7 @@ public class TriggerVolume : MonoBehaviour
     //on trigger enter, check if the players is the one that collided with us. if true turn on UI Canvas to tell player they have the option to interact with this person. if button is clicked close Button canvas & turn on interacting canvas
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "Player" && romanceperson.WillTalk)
         {
             Debug.Log("you did it");
             ButtonCanvas.enabled = true;
