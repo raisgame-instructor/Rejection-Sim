@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class TriggerVolume : MonoBehaviour
 {
-
+    /*When the RP is created from the prefab you need to assign 2 variables for it to work right.
+     * The "Button Canvas" and "Player Movement Script" if you did this in the right order you should be coming from the Romance person Script, and should know where to get the player and where to put them
+     * then you need to grab the Button Canvas also found in the Hierarchy and drag that into the variable named the same thing
+     * Thats all you need to do, now your set up and ready to go
+     */
     public Canvas ButtonCanvas;
     public Canvas MyInteractCanvas;
     public PlayerMoverment PlayerMovermentScript;

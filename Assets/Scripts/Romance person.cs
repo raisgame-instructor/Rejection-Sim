@@ -6,9 +6,14 @@ using TMPro;
 
 public class Romanceperson : MonoBehaviour
 {
+    /*Each romance partner will be a prefab of the original
+     * All you need to change for them on the game object is the image labeled "picture of RP" and the background for it if you want and then drag the player onto "PLayer Movement Script" to asign that.
+     * then in the variables everything should be set for you, and there you can change your "Fillin 1,2,3", the "ResponseText" and the "RPVoiceLines"
+     * because each RP has their own canvas it should be fine
+     * Finally check the notation at the top of the "Trigger Volume" script to see what you need to do for that if you don't know
+    */
     public PlayerMoverment PlayerMovermentScript;
     public TriggerVolume TriggerVolumeScript;
-
     //this script is to deal with the Interact canvas and the options for the player and showing text and playing audio from the romance partner.
     public Canvas InteractCanvas;
     public TextMeshProUGUI TextOption1;
@@ -17,7 +22,6 @@ public class Romanceperson : MonoBehaviour
     public List<string> Fillin1;
     public List<string> Fillin2;
     public List<string> Fillin3;
-
     //this is what the romance partner says
     public TextMeshProUGUI Response;
     public List<string> ResponseText1;
@@ -32,7 +36,6 @@ public class Romanceperson : MonoBehaviour
         TextUpdate();
     }
 
-    //
     void TextUpdate()
     {
         //take the first list text option and display it
@@ -62,19 +65,16 @@ public class Romanceperson : MonoBehaviour
             Invoke("ConvoOver", 2);
             WillTalk = false;
         }
-
         if (Fillin1.Count > 0)
         {
             TextOption1.text = Fillin1[0];
             Fillin1.RemoveAt(0);
         }
-
         if (Fillin2.Count > 0)
         {
             TextOption2.text = Fillin2[0];
             Fillin2.RemoveAt(0);
         }
-
         if (Fillin3.Count > 0)
         {
             TextOption3.text = Fillin3[0];
