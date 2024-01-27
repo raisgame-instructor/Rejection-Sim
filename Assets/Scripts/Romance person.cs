@@ -12,8 +12,10 @@ public class Romanceperson : MonoBehaviour
      * because each RP has their own canvas it should be fine
      * Finally check the notation at the top of the "Trigger Volume" script to see what you need to do for that if you don't know
     */
+    //Script references
     public PlayerMoverment PlayerMovermentScript;
     public TriggerVolume TriggerVolumeScript;
+    public RizzMeter RizzMeterScript;
     //this script is to deal with the Interact canvas and the options for the player and showing text and playing audio from the romance partner.
     public Canvas InteractCanvas;
     public TextMeshProUGUI TextOption1;
@@ -95,5 +97,6 @@ public class Romanceperson : MonoBehaviour
         TriggerVolumeScript.MyInteractCanvas.enabled = false;
         PlayerMovermentScript.CanInteract = false;
         PlayerMovermentScript.CanMove = true;
+        RizzMeterScript.NegUpdateRizz();
     }
 }

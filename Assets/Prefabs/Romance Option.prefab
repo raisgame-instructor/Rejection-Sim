@@ -264,7 +264,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045773042124158760}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -1829,6 +1829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerMovermentScript: {fileID: 0}
   TriggerVolumeScript: {fileID: 9149688053010627798}
+  RizzMeterScript: {fileID: 0}
   InteractCanvas: {fileID: 4836195490479794512}
   TextOption1: {fileID: 5063918304103407636}
   TextOption2: {fileID: 3318239502400648153}
