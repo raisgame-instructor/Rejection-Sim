@@ -14,6 +14,7 @@ public class TriggerVolume : MonoBehaviour
     public PlayerMoverment PlayerMovermentScript;
     public Romanceperson romanceperson;
     private bool Intrigger;
+    private bool FirstTimeTalking = true;
 
     //On start set canvas to off
     private void Start()
@@ -36,13 +37,14 @@ public class TriggerVolume : MonoBehaviour
     //check if we can interact with this person and then open the interact canvas
     public void Update()
     {
-        if (PlayerMovermentScript.CanInteract && Intrigger && romanceperson.WillTalk)
+        if (PlayerMovermentScript.CanInteract && Intrigger && romanceperson.WillTalk && FirstTimeTalking)
         {
             ButtonCanvas.enabled = false;
             MyInteractCanvas.enabled = true;
             PlayerMovermentScript.CanMove = false;
             //trigger the voice line when the interact canvas turns on
             romanceperson.TriggerLines();
+            FirstTimeTalking = false;
         }
     }
 
