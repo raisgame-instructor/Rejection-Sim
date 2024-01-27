@@ -718,6 +718,10 @@ PrefabInstance:
       propertyPath: PlayerMovermentScript
       value: 
       objectReference: {fileID: 94734675}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: ResponseText1.Array.data[2]
+      value: You're the worst kind of human, and humans are already the worst species
+      objectReference: {fileID: 0}
     - target: {fileID: 9149688053010627798, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: ButtonCanvas
       value: 
