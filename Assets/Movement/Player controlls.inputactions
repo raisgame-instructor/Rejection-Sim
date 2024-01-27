@@ -1,0 +1,106 @@
+{
+    "name": "Player controlls",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "e56d60d5-ceec-4d33-8766-dc9052a35e2d",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "b0505d45-e061-45d4-b545-1d3578756721",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "3D Vector",
+                    "id": "2c30c269-8656-484c-b002-f310a80f4fc6",
+                    "path": "3DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "3e0a36c6-7a27-435e-b8a5-bfb94dc7e3f1",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player Movement",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "9f890e4c-a987-4efc-b1ee-924c25911a7c",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player Movement",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "699d064a-1834-41d0-9892-c3f81c392353",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player Movement",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "dfce6291-ac18-43c6-9b6a-62af3a231e4e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player Movement",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "forward",
+                    "id": "9c8cbca1-c812-4c09-bbaf-7cad65930858",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player Movement",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "backward",
+                    "id": "97a4504a-67d4-41ea-9e20-cc769a955aec",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player Movement",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Player Movement",
+            "bindingGroup": "Player Movement",
+            "devices": []
+        }
+    ]
+}
