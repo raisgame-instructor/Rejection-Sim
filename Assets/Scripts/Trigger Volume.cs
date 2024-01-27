@@ -41,7 +41,8 @@ public class TriggerVolume : MonoBehaviour
             ButtonCanvas.enabled = false;
             MyInteractCanvas.enabled = true;
             PlayerMovermentScript.CanMove = false;
-            //disable input when interact canvas is up.
+            //trigger the voice line when the interact canvas turns on
+            romanceperson.TriggerLines();
         }
     }
 

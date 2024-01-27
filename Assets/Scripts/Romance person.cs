@@ -42,8 +42,6 @@ public class Romanceperson : MonoBehaviour
 
     void TextUpdate()
     {
-        ASource.PlayOneShot(RPVoiceLines[0]);
-        RPVoiceLines.RemoveAt(0);
         Response.text = ResponseText1[0];
         ResponseText1.RemoveAt(0);
         //take the first list text option and display it
@@ -91,6 +89,11 @@ public class Romanceperson : MonoBehaviour
         }
     }
 
+    public void TriggerLines()
+    {
+        ASource.PlayOneShot(RPVoiceLines[0]);
+        RPVoiceLines.RemoveAt(0);
+    }
     //When you do this you get the auto response, similar to LoadTextOption
     public void DoneEnteringText()
     {
