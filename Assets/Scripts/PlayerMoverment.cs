@@ -10,11 +10,13 @@ public class PlayerMoverment : MonoBehaviour
     public float Speed;
     public bool CanInteract;
 
+    //for gizmo to interact with romance partners
     public Transform Location;
     public float checkradius;
     public LayerMask whatInteract;
     public bool isInteracting;
 
+    public bool CanMove = true;
 
     private void Update()
     {
@@ -23,8 +25,11 @@ public class PlayerMoverment : MonoBehaviour
 
     private void OnMove(InputValue IValue)
     {
-        Movement = IValue.Get<Vector2>();
-        RB2D.velocity = Movement * Speed;
+        if (CanMove)
+        {
+            Movement = IValue.Get<Vector2>();
+            RB2D.velocity = Movement * Speed;
+        }
     }
 
 

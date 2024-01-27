@@ -28,10 +28,10 @@ public class TriggerVolume : MonoBehaviour
         {
             ButtonCanvas.enabled = false;
             MyInteractCanvas.enabled = true;
+            PlayerMovermentScript.CanMove = false;
             //disable input when interact canvas is up. need alternate way to exit out of the interact canvas
         }
     }
-
 
     //on trigger exit turn off the buttons canvas
     private void OnTriggerExit2D(Collider2D collision)
@@ -45,5 +45,15 @@ public class TriggerVolume : MonoBehaviour
             PlayerMovermentScript.CanInteract = false;
 
         }
+    }
+
+    //When the exit button is clicked we turn off the canvas' and let the player move again
+    public void ExitButton()
+    {
+        Debug.Log("butts");
+        ButtonCanvas.enabled = false;
+        MyInteractCanvas.enabled = false;
+        PlayerMovermentScript.CanInteract = false;
+        PlayerMovermentScript.CanMove = true;
     }
 }
