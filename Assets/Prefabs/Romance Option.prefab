@@ -1838,20 +1838,24 @@ MonoBehaviour:
   - I love you
   - I love you
   - I love you
+  - 
   Fillin2:
   - wanna take a sniff?
   - Why would you say that?
   - Peepee poopoo
+  - 
   Fillin3:
   - i think you smell. good that is
   - blah blah blah
   - yeah yeah yeah
+  - 
   Response: {fileID: 4467263913786853734}
   ResponseText1:
   - you suck, eat dirt
   - what the hell is water? parasite!
   - thats not bad
   WillTalk: 1
+  CanEndConvo: 1
   ASource: {fileID: 8455421063797241973}
   RPVoiceLines:
   - {fileID: 0}

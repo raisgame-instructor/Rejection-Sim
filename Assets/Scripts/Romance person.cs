@@ -9,7 +9,7 @@ public class Romanceperson : MonoBehaviour
     /*Each romance partner will be a prefab of the original
      * In Hieracrhy: Change the image labeled "picture of RP" and the background for it if you want
      * Inspector: Drag the player onto "Player Movement Script" & HUD onto "RizzMeter Script" to asign them.
-     * then in the variables everything should be set for you, and there you can change your "Fillin 1,2,3", the "ResponseText" and the "RPVoiceLines"
+     * then in the variables everything should be set for you, and there you can change your "Fillin 1,2,3" leave the 4th option of each "Fillin" blank, the "ResponseText" and the "RPVoiceLines"
      * because each RP has their own canvas it should be fine
      * Finally check the notation at the top of the "Trigger Volume" script to see what you need to do for that if you don't know
     */
