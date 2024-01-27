@@ -8,6 +8,12 @@ public class PlayerMoverment : MonoBehaviour
     public Rigidbody2D RB2D;
     private Vector2 Movement;
     public float Speed;
+    public bool CanInteract;
+
+    public Transform Location;
+    public float checkradius;
+    public LayerMask whatInteract;
+
 
     private void OnMove(InputValue IValue)
     {
@@ -15,6 +21,11 @@ public class PlayerMoverment : MonoBehaviour
         RB2D.velocity = Movement * Speed;
     }
 
+    
+    private void OnInteract()
+    {
+        CanInteract = true;
+    }
 
 
 
