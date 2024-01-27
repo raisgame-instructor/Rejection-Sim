@@ -42,6 +42,10 @@ public class Romanceperson : MonoBehaviour
 
     void TextUpdate()
     {
+        ASource.PlayOneShot(RPVoiceLines[0]);
+        RPVoiceLines.RemoveAt(0);
+        Response.text = ResponseText1[0];
+        ResponseText1.RemoveAt(0);
         //take the first list text option and display it
         TextOption1.text = Fillin1[0];
         TextOption2.text = Fillin2[0];

@@ -1851,6 +1851,7 @@ MonoBehaviour:
   - 
   Response: {fileID: 4467263913786853734}
   ResponseText1:
+  - What the hell do you want?
   - you suck, eat dirt
   - what the hell is water? parasite!
   - thats not bad
@@ -1858,6 +1859,7 @@ MonoBehaviour:
   CanEndConvo: 1
   ASource: {fileID: 8455421063797241973}
   RPVoiceLines:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
