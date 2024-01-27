@@ -50,10 +50,10 @@ public class TriggerVolume : MonoBehaviour
     //When the exit button is clicked we turn off the canvas' and let the player move again
     public void ExitButton()
     {
-        Debug.Log("butts");
         ButtonCanvas.enabled = false;
         MyInteractCanvas.enabled = false;
         PlayerMovermentScript.CanInteract = false;
         PlayerMovermentScript.CanMove = true;
     }
+
 }
