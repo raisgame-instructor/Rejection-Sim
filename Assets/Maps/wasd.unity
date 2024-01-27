@@ -355,6 +355,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2627461346005112759, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627461346005112759, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627461346005112759, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -392,6 +400,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2627461346005112759, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740439240243358052, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740439240243358052, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6136481114783436866, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
@@ -572,9 +588,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3659402731191616246, guid: 2cae87b85d3757e46a18222e6ee4138f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 629.8097
+      objectReference: {fileID: 0}
+    - target: {fileID: 3659402731191616246, guid: 2cae87b85d3757e46a18222e6ee4138f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000024796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3659402731191616246, guid: 2cae87b85d3757e46a18222e6ee4138f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -423.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6669780716424657324, guid: 2cae87b85d3757e46a18222e6ee4138f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
     - target: {fileID: 8777625219756852729, guid: 2cae87b85d3757e46a18222e6ee4138f, type: 3}
       propertyPath: m_Name
       value: ButtonCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967832991763973933, guid: 2cae87b85d3757e46a18222e6ee4138f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
