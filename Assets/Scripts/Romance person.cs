@@ -29,6 +29,7 @@ public class Romanceperson : MonoBehaviour
     public TextMeshProUGUI Response;
     public List<string> ResponseText1;
     public bool WillTalk = true;
+    public bool CanEndConvo = true;
     //audio
     public AudioSource ASource;
     public List<AudioClip> RPVoiceLines;
@@ -62,11 +63,12 @@ public class Romanceperson : MonoBehaviour
             ASource.PlayOneShot(RPVoiceLines[0]);
             RPVoiceLines.RemoveAt(0);
         }
-        if(ResponseText1.Count == 0)
+        if(ResponseText1.Count == 0 && CanEndConvo)
         {
             Debug.Log("done");
             Invoke("ConvoOver", 2);
             WillTalk = false;
+            CanEndConvo = false;
         }
         if (Fillin1.Count > 0)
         {
