@@ -511,7 +511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rizzmeter: {fileID: 4978146220887224829}
-  CurrentValue: 1000
+  CurrentValue: 200
   GameOverCanvas: {fileID: 6849156691197146155}
   MusicAudioSource: {fileID: 0}
 --- !u!1 &2964333553485678349
@@ -768,9 +768,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2530478667977312210}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 1000
+  m_MaxValue: 200
   m_WholeNumbers: 0
-  m_Value: 1000
+  m_Value: 200
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -821,7 +821,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3646036797975815334}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
