@@ -392,6 +392,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: b62d136a7ac6d8048a3aeb3c52eb1903, type: 3}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: RPVoiceLines.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: b62d136a7ac6d8048a3aeb3c52eb1903, type: 3}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: ResponseText1.Array.data[1]
       value: And you are looking like you crawled out of a dumpster.
       objectReference: {fileID: 0}
@@ -583,6 +587,10 @@ PrefabInstance:
       propertyPath: PlayerMovermentScript
       value: 
       objectReference: {fileID: 94734675}
+    - target: {fileID: 4498753438080646195, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
+      propertyPath: RPVoiceLines.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6464d8480ee5f984398b1ecfc28fdadc, type: 3}
     - target: {fileID: 7210324721225206308, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1172,6 +1180,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 94734675}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: RPVoiceLines.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6464d8480ee5f984398b1ecfc28fdadc, type: 3}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: ResponseText1.Array.data[0]
       value: What?
       objectReference: {fileID: 0}
@@ -1365,6 +1377,10 @@ PrefabInstance:
       propertyPath: PlayerMovermentScript
       value: 
       objectReference: {fileID: 94734675}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: RPVoiceLines.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6464d8480ee5f984398b1ecfc28fdadc, type: 3}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: ResponseText1.Array.data[0]
       value: Woah buddy watch where your eyes are.
@@ -1784,6 +1800,10 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 5915aca4c78d6354ea9445b7ab2677d9, type: 3}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: RPVoiceLines.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5915aca4c78d6354ea9445b7ab2677d9, type: 3}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: RPVoiceLines.Array.data[3]
       value: 
       objectReference: {fileID: 8300000, guid: 5915aca4c78d6354ea9445b7ab2677d9, type: 3}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
@@ -2297,6 +2317,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 94734675}
     - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: RPVoiceLines.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6464d8480ee5f984398b1ecfc28fdadc, type: 3}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: ResponseText1.Array.data[0]
       value: '*Stands silently*'
       objectReference: {fileID: 0}
@@ -2417,6 +2441,10 @@ PrefabInstance:
     - target: {fileID: 3665347218102848925, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: MinDistance
       value: 0.7989378
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731514853540352947, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3735146347241449274, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: ButtonCanvas
@@ -3054,6 +3082,10 @@ PrefabInstance:
       propertyPath: PlayerMovermentScript
       value: 
       objectReference: {fileID: 94734675}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: RPVoiceLines.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6464d8480ee5f984398b1ecfc28fdadc, type: 3}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: ResponseText1.Array.data[1]
       value: You suck, eat dirt.
