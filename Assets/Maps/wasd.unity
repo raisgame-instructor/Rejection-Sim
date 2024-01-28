@@ -1317,6 +1317,47 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[0]
+      value: its my MANLY MUSK babe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[1]
+      value: oh i know you love my presence
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[2]
+      value: please, give me a shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[2]
+      value: well i could look at you all day
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[1]
+      value: youre in a bar, are your standards really that high?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[2]
+      value: just close your eyes then and let me buy you a drink
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[0]
+      value: you smell repulsive
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[1]
+      value: jesus get out of my face i cant stand being around you
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[2]
+      value: i told you to get lost, i dont want to look at you anymore
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[3]
+      value: youre pathetic, maybe theres a reason youre still single. have you thought
+        about that
+      objectReference: {fileID: 0}
     - target: {fileID: 8980653185231498627, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: m_Name
       value: NPCS-additonal
