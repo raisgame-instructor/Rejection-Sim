@@ -342,10 +342,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 607091355530832145, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_Name
-      value: Rizz Meter Title
-      objectReference: {fileID: 0}
     - target: {fileID: 2530478667977312210, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -397,39 +393,6 @@ PrefabInstance:
     - target: {fileID: 2627461346005112759, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3970084638374154643, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -906
-      objectReference: {fileID: 0}
-    - target: {fileID: 3970084638374154643, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -152
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184914231811480010, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_text
-      value: 'R
-
-        i
-
-        z
-
-        z
-
-
-        M
-
-        e
-
-        t
-
-        e
-
-        r'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4184914231811480010, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_fontStyle
-      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6136481114783436866, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_Name
