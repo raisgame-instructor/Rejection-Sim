@@ -462,6 +462,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1199983298082751559, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.34581
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199983298082751559, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.34581
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199983298082751559, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.34581
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199983298082751559, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -360
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199983298082751559, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -97
+      objectReference: {fileID: 0}
     - target: {fileID: 2530478667977312210, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -514,6 +534,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3970084638374154643, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.34581
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970084638374154643, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.34581
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970084638374154643, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.34581
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970084638374154643, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -377.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970084638374154643, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -89.04699
+      objectReference: {fileID: 0}
     - target: {fileID: 4978146220887224829, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_Value
       value: 280
@@ -538,6 +578,10 @@ PrefabInstance:
       propertyPath: MusicAudioSource
       value: 
       objectReference: {fileID: 2092084988}
+    - target: {fileID: 7308353469047107392, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8802782336005610761, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: DeathAnimator
       value: 

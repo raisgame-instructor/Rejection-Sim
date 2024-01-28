@@ -32,6 +32,13 @@ public class PlayerMoverment : MonoBehaviour
         }
     }
 
+    private void OnPause()
+    {
+        //set timescale to Zero and open pause canvas
+        //will probably need to create a script for pause canvas and have buttons resume and quit and such
+        //default keys for this ATM are "Esc" and "P"
+    }
+
 
     void Interacting()
     {
