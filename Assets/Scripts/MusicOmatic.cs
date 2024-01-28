@@ -5,14 +5,11 @@ using UnityEngine;
 
 public class MusicOmatic : MonoBehaviour
 {
-<<<<<<< Updated upstream
-=======
-
-
+    //Updated upstream
 
     bool mybool;
 
->>>>>>> Stashed changes
+    //Stashed changes
     public AudioClip otherClip;
     public AudioClip otherClip2;
     public AudioClip otherClip3;
