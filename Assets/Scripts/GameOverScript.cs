@@ -18,6 +18,6 @@ public class GameOverScript : MonoBehaviour
 
     public void PlayAnim()
     {
-        
+        DeathAnimator.SetBool("Play", true);
     }
 }
