@@ -23,6 +23,12 @@ public class PlayerMoverment : MonoBehaviour
     public bool CanMove = true;
     public GameObject pausecanvas;
 
+    private void Start()
+    {
+        
+    }
+
+
     private void Update()
     {
         Interacting();
@@ -31,10 +37,18 @@ public class PlayerMoverment : MonoBehaviour
 
     private void OnMove(InputValue IValue)
     {
+        AudioSource audio = GetComponent<AudioSource>();
+
         if (CanMove)
         {
             Movement = IValue.Get<Vector2>();
             RB2D.velocity = Movement * Speed;
+            audio.Play();
+        }
+        else
+        {
+            audio.Stop();
+
         }
     }
 
@@ -63,7 +77,7 @@ public class PlayerMoverment : MonoBehaviour
     {
 
         SceneManager.LoadScene(SceneName);
-
+        Time.timeScale = 1f;
 
     }
 
