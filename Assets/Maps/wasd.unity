@@ -1358,6 +1358,10 @@ PrefabInstance:
       value: youre pathetic, maybe theres a reason youre still single. have you thought
         about that
       objectReference: {fileID: 0}
+    - target: {fileID: 7800276394472043891, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 8980653185231498627, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: m_Name
       value: NPCS-additonal
