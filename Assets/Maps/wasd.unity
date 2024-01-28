@@ -390,7 +390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: ResponseText1.Array.data[3]
-      value: u gay idk
+      value: i swear to god im gonna knock you out if you say one more thing to me
       objectReference: {fileID: 0}
     - target: {fileID: 9149688053010627798, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: ButtonCanvas
@@ -1317,6 +1317,108 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[0]
+      value: i love you
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[1]
+      value: i love your eyes
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[0]
+      value: I REALLY love you
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[1]
+      value: I REALLY love your eyes
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[2]
+      value: I REALLY love your lips
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[0]
+      value: I SUPER love you
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[1]
+      value: I SUPER love your eyes
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[2]
+      value: I SUPER love your lips
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[0]
+      value: '*stands silently*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[1]
+      value: '*looks with confusion *'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[2]
+      value: '*raises lip in disgust*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378688862887245686, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[3]
+      value: '*vomits*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[0]
+      value: well rings tarnish, but babygirl our love could be eternal
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[1]
+      value: hey, dont be so quick to pas up the rizz meister
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[2]
+      value: im just trying to give your marriage an upgrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[0]
+      value: what ring? i dont see a ring on your finger... yet
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[1]
+      value: oh you want me dont you
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[2]
+      value: if anything youre ruining my night
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[0]
+      value: nuh uh, actually ive been rejecting everyone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[1]
+      value: so what are your hobbies
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[2]
+      value: you dont have to be rude
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[0]
+      value: back up bud, ive got a ring on this finger. ive seen you get rejected
+        by everyone else in this bar so dont even try
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[1]
+      value: look man leave me alone. i dont really care about what you have to say
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[2]
+      value: youre ruining everyones night, take a hint and drag your ass out the
+        door
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145569438081374578, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[3]
+      value: youre lucky my husband isnt here otherwise hed kick your ass rn
+      objectReference: {fileID: 0}
     - target: {fileID: 6890647304026129031, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: Fillin1.Array.data[0]
       value: its my MANLY MUSK babe
@@ -1361,6 +1463,59 @@ PrefabInstance:
     - target: {fileID: 7800276394472043891, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[0]
+      value: i want your number
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[1]
+      value: well would you like to help me look?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin1.Array.data[2]
+      value: but i love you
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[0]
+      value: i want love
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[1]
+      value: you sure are depressing
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin2.Array.data[2]
+      value: but baby i wanna bother you!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[0]
+      value: i want to be happy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[1]
+      value: come on... i feel like we're perfect for eachother
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[2]
+      value: come on, youre really gonna pass up the rizzmaster?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: Fillin3.Array.data[3]
+      value: dude, take the hint and fuck off already
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[1]
+      value: well you aint finding that shit here
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[2]
+      value: i really dont care about what you have to say. can you go bother someone
+        else?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342655242457569833, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: ResponseText1.Array.data[3]
+      value: screw off
       objectReference: {fileID: 0}
     - target: {fileID: 8980653185231498627, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: m_Name
