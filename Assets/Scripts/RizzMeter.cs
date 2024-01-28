@@ -34,7 +34,7 @@ public class RizzMeter : MonoBehaviour
 
     private void ConstantUpdateRizz()
     {
-        CurrentValue = CurrentValue - 0.005f;
+        CurrentValue = CurrentValue - 0.01f;
         Rizzmeter.value = CurrentValue;
     }
     //will happen when you pick up items
