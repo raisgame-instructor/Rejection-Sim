@@ -355,14 +355,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2627461346005112759, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2627461346005112759, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2627461346005112759, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -400,14 +392,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2627461346005112759, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4740439240243358052, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4740439240243358052, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6136481114783436866, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
@@ -719,9 +703,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 94734675}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
-      propertyPath: ResponseText1.Array.data[2]
-      value: You're the worst kind of human, and humans are already the worst species
-      objectReference: {fileID: 0}
+      propertyPath: RPVoiceLines.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6464d8480ee5f984398b1ecfc28fdadc, type: 3}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: RPVoiceLines.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 64310f27a806107408871df8a8bea80d, type: 3}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: RPVoiceLines.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1b03a30940c01b94a9bf9cfb8756f600, type: 3}
     - target: {fileID: 9149688053010627798, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: ButtonCanvas
       value: 
