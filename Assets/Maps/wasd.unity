@@ -915,6 +915,10 @@ PrefabInstance:
       value: im sorry but... leg
       objectReference: {fileID: 0}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: Fillin1.Array.data[2]
+      value: youre my ideal woman. all leg
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: Fillin2.Array.data[0]
       value: woah
       objectReference: {fileID: 0}
@@ -933,6 +937,10 @@ PrefabInstance:
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: Fillin3.Array.data[1]
       value: youre right, i should "step up" my game hehe
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
+      propertyPath: Fillin3.Array.data[2]
+      value: come on bby gorl, give me a shot please. dont make me beg
       objectReference: {fileID: 0}
     - target: {fileID: 7388315315200033438, guid: e63cfe2a72f2111419bb5d0d9c7fa886, type: 3}
       propertyPath: PlayerMovermentScript
