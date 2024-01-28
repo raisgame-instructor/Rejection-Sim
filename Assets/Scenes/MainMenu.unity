@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98f65b7cc9e8bc94fa147f129702de16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartScene: wasd
+  StartScene: OpeningScene
 --- !u!1 &335038022
 GameObject:
   m_ObjectHideFlags: 0
