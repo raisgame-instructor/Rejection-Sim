@@ -17,10 +17,12 @@ public class PlayerMoverment : MonoBehaviour
     public bool isInteracting;
 
     public bool CanMove = true;
+    public GameObject pausecanvas;
 
     private void Update()
     {
         Interacting();
+        OnPause();
     }
 
     private void OnMove(InputValue IValue)
@@ -34,11 +36,29 @@ public class PlayerMoverment : MonoBehaviour
 
     private void OnPause()
     {
+        if(Input.GetKey(KeyCode.Escape) || Input.GetKey(KeyCode.P))
+        {
+            Time.timeScale = 0f;
+            pausecanvas.SetActive(true);
+        }
         //set timescale to Zero and open pause canvas
+        
         //will probably need to create a script for pause canvas and have buttons resume and quit and such
+
         //default keys for this ATM are "Esc" and "P"
     }
 
+    public void OnResume()
+    {
+        Time.timeScale = 1f;
+        pausecanvas.SetActive(false);
+
+    }
+
+    public void OnQuit()
+    {
+        Application.Quit();
+    }
 
     void Interacting()
     {
