@@ -58,7 +58,7 @@ public class TriggerVolume : MonoBehaviour
             MyInteractCanvas.enabled = false;
             Intrigger = false;
             PlayerMovermentScript.CanInteract = false;
-
+            PlayerMovermentScript.CanMove = true;
         }
     }
 
