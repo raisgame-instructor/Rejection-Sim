@@ -423,10 +423,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 177866884271159714, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 2530478667977312210, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -481,11 +477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4978146220887224829, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_Value
-      value: 200
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 4978146220887224829, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_MaxValue
-      value: 200
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 6136481114783436866, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: m_Name
@@ -493,16 +489,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6421271099724391815, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: CurrentValue
-      value: 200
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 6421271099724391815, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
       propertyPath: MusicAudioSource
       value: 
       objectReference: {fileID: 2092084988}
-    - target: {fileID: 6849156691197146155, guid: bbb3b42aba5a817439797811d60b4b63, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
