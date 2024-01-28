@@ -3099,9 +3099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"RequiredAmountOfPeopleTalkedTo","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PeopleTalkedTo","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WheneEnoughPeopleTalkedToTrigger","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"WheneEnoughPeopleTalkedToTrigger","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 480762150}
@@ -4173,16 +4171,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -9, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 21
-      m_TileSpriteIndex: 20
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 3
@@ -4227,7 +4215,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: b2b864b277100d34ab8c2a78024326e7, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0a8343ecbec39a044bf864686d23754e, type: 2}
@@ -4276,7 +4264,7 @@ Tilemap:
     m_Data: {fileID: -1694375211, guid: 63720bf26ec0ef34984f12a8e11d53fb, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -941519645, guid: 63720bf26ec0ef34984f12a8e11d53fb, type: 3}
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 1776754464, guid: 63720bf26ec0ef34984f12a8e11d53fb, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1423286920, guid: 63720bf26ec0ef34984f12a8e11d53fb, type: 3}
@@ -4287,7 +4275,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -2108685199, guid: 63720bf26ec0ef34984f12a8e11d53fb, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 31
+  - m_RefCount: 30
     m_Data:
       e00: 1
       e01: 0
@@ -4306,7 +4294,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 31
+  - m_RefCount: 30
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
