@@ -540,6 +540,34 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402278897}
     - target: {fileID: 4498753438080646195, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
+      propertyPath: Fillin1.Array.data[0]
+      value: You like eggs?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498753438080646195, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
+      propertyPath: Fillin1.Array.data[2]
+      value: Brunch sometime?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498753438080646195, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
+      propertyPath: Fillin2.Array.data[0]
+      value: I got a spatula with your name on it
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498753438080646195, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
+      propertyPath: Fillin2.Array.data[2]
+      value: Looking EGGcellent.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498753438080646195, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
+      propertyPath: Fillin3.Array.data[0]
+      value: You see that leg over there?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498753438080646195, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
+      propertyPath: Fillin3.Array.data[1]
+      value: Anyone try to crack you today?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498753438080646195, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
+      propertyPath: Fillin3.Array.data[2]
+      value: You're just my type.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498753438080646195, guid: 7d427750eb4d0a84b9486e9dfa05801c, type: 3}
       propertyPath: PlayerMovermentScript
       value: 
       objectReference: {fileID: 94734675}
@@ -2186,6 +2214,10 @@ PrefabInstance:
     - target: {fileID: 4193004462216522169, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: m_Offset.y
       value: -0.09406012
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505282268989184044, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.68
       objectReference: {fileID: 0}
     - target: {fileID: 4680517864670140639, guid: c29dac6293a9fad4f8e7f826d7bd1a7f, type: 3}
       propertyPath: m_SortingOrder
