@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: de7eef572e4c7564b999d7f92e4e9174
   - enabled: 1
+    path: Assets/Maps/OpeningScene.unity
+    guid: 20b29841fccf61a4eb5ece2b37845401
+  - enabled: 1
     path: Assets/Maps/Room1.unity
     guid: 433c21ce6e65d8e49822ccdb78fd8343
   - enabled: 1
     path: Assets/Maps/wasd.unity
     guid: 338f1e6187d19d64b82d7caf1112479b
-  - enabled: 1
-    path: Assets/Maps/OpeningScene.unity
-    guid: 20b29841fccf61a4eb5ece2b37845401
   m_configObjects: {}

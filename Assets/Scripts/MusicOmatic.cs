@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class MusicOmatic : MonoBehaviour
 {
-    //Updated upstream
-    //to check if we are dead or in the main game. this way music doesn't do funky things hopefully
-    bool InMainGame = true;
 
-    //Stashed changes
+
+
+
+    bool mybool;
+
+
     public AudioClip otherClip;
     public AudioClip otherClip2;
     public AudioClip otherClip3;
@@ -18,25 +20,26 @@ public class MusicOmatic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
+
+
         StartCoroutine(Musicplayer());
     }
 
     IEnumerator Musicplayer()
     {
-        if(InMainGame)
-        {
-            AudioSource audio = GetComponent<AudioSource>();
-            audio.Play();
-            yield return new WaitForSeconds(audio.clip.length);
-            audio.clip = otherClip;
-            audio.Play();
-            yield return new WaitForSeconds(audio.clip.length);
-            audio.clip = otherClip2;
-            audio.Play();
-            yield return new WaitForSeconds(audio.clip.length);
-            audio.clip = otherClip3;
-            audio.Play();
-        }
+
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
+        yield return new WaitForSeconds(audio.clip.length);
+        audio.clip = otherClip;
+        audio.Play();
+        yield return new WaitForSeconds(audio.clip.length);
+        audio.clip = otherClip2;
+        audio.Play();
+        yield return new WaitForSeconds(audio.clip.length);
+        audio.clip = otherClip3;
+        audio.Play();
     }
 
     public void StartEndMusic()
@@ -45,7 +48,6 @@ public class MusicOmatic : MonoBehaviour
     }
     IEnumerator EndMusicplayer()
     {
-        InMainGame = false;
         AudioSource audio = GetComponent<AudioSource>();
         audio.clip = GameOverMusic;
         audio.Play();
