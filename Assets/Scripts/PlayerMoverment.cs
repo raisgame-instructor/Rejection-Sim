@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMoverment : MonoBehaviour
 {
+
+    public string SceneName;
+
     public Rigidbody2D RB2D;
     private Vector2 Movement;
     public float Speed;
@@ -52,6 +56,14 @@ public class PlayerMoverment : MonoBehaviour
     {
         Time.timeScale = 1f;
         pausecanvas.SetActive(false);
+
+    }
+     
+    public void OnRestart()
+    {
+
+        SceneManager.LoadScene(SceneName);
+
 
     }
 
