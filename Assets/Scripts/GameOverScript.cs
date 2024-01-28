@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameOverScript : MonoBehaviour
 {
     public string SceneName;
+    public Animator DeathAnimator;
     public void Restart()
     {
         SceneManager.LoadScene(SceneName);
@@ -13,5 +14,10 @@ public class GameOverScript : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void PlayAnim()
+    {
+        
     }
 }

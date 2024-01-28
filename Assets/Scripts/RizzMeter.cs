@@ -11,6 +11,7 @@ public class RizzMeter : MonoBehaviour
     public float CurrentValue;
     public Canvas GameOverCanvas;
     public MusicOmatic MusicAudioSource;
+    public GameOverScript GameOverScript;
 
     /*on update we want the bar to go down by a very small amount and check to see if the value is zero
     When the bar gets to Zero we want to trigger the end of the game*/
@@ -24,6 +25,7 @@ public class RizzMeter : MonoBehaviour
             this.enabled = false;
             GameOverCanvas.enabled = true;
             MusicAudioSource.StartEndMusic();
+            GameOverScript.PlayAnim();
         }
         
     }
