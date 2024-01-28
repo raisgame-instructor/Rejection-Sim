@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 11814257d8387664db7b001417cf9809
+guid: 9c7840cbf22a040499c8e322fea07307
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,19 +69,6 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -121,301 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: reject-NPCS-1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 411
-        width: 64
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 557d447f1fc3c7743b9a719342b99431
-      internalID: -173245357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 411
-        width: 64
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e69236e9d0326c645be642c7db9e4d75
-      internalID: -233628321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 342
-        width: 64
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe1783061f236654fa9a8e85594b7a90
-      internalID: 2026692564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 342
-        width: 64
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de71484b275ebc74da0b952421568d4e
-      internalID: 260829048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 273
-        width: 64
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e88ed9749ae1c64b83cf5fb352036c7
-      internalID: -696998495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 273
-        width: 64
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 014cf2c7f4a6acb4c914680f197400cf
-      internalID: 1373044690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 207
-        width: 64
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 065248dab03152740a2874d927720d90
-      internalID: 225566321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_7
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 207
-        width: 64
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7263e9afc89065408c3ac1dedb180ad
-      internalID: 18554971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 136
-        width: 64
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ac6b5c9853cf664ea491766a437b8a9
-      internalID: 2116946540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_9
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 136
-        width: 64
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c6be73c80978e44190caff369094f88
-      internalID: 1317239554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 69
-        width: 64
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c667b9c6530b8784a97970682951dce3
-      internalID: -2078984719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_11
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 69
-        width: 64
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 146cb78e1af5b7c4eb1ac47f118ae8ef
-      internalID: 987685323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a29c8919f5f72842be00066bc7a3b60
-      internalID: -1130279223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: reject-NPCS-1_13
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a33273dc93b5bc04682078376f8017c5
-      internalID: 179517635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -426,21 +119,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      reject-NPCS-1_0: -173245357
-      reject-NPCS-1_1: -233628321
-      reject-NPCS-1_10: -2078984719
-      reject-NPCS-1_11: 987685323
-      reject-NPCS-1_12: -1130279223
-      reject-NPCS-1_13: 179517635
-      reject-NPCS-1_2: 2026692564
-      reject-NPCS-1_3: 260829048
-      reject-NPCS-1_4: -696998495
-      reject-NPCS-1_5: 1373044690
-      reject-NPCS-1_6: 225566321
-      reject-NPCS-1_7: 18554971
-      reject-NPCS-1_8: 2116946540
-      reject-NPCS-1_9: 1317239554
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
