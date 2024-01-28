@@ -5,6 +5,14 @@ using UnityEngine;
 
 public class MusicOmatic : MonoBehaviour
 {
+<<<<<<< Updated upstream
+=======
+
+
+
+    bool mybool;
+
+>>>>>>> Stashed changes
     public AudioClip otherClip;
     public AudioClip otherClip2;
     public AudioClip otherClip3;
@@ -13,7 +21,9 @@ public class MusicOmatic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
+
+
         StartCoroutine(Musicplayer());
     }
 
